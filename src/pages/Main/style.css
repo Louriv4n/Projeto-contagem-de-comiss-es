@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex; /* Habilita flexbox para o body */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: flex-start; /* Centraliza verticalmente */
+}
+
+
+#data {
+  margin-top: 20px;
+  display: flex; /* Usando flexbox para alinhar os elementos lado a lado */
+  align-items: center; /* Alinha os itens verticalmente no centro */
+}
+
+#data h2 {
+  margin-right: 10px; /* Adiciona espaço entre o h2 e o DatePicker */
+}
+
+#cor1{
+  background-color: rgb(61, 61, 61);
+  color: white;
+  padding: 2px;
+  border-radius: 3px;
+  div{
+    display: flex; /* Organiza os botões em linha */
+    gap: 5px;
+  }
+}
+
+.react-datepicker__input-container input {
+  width: 90px;
+}
+
+header{
+  width: auto;
+  height: 100px;
+  background-color: rgb(74, 74, 79);
+  text-align: center;
+  text-align: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin: 0;
+}
+
+#comi{
+  margin-top: 0px;
+  padding-top: 40px;
+}
+
+#all {
+  display: flex; /* Habilita flexbox para o container de todos os elementos */
+  flex-direction: column; /* Alinha verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  text-align: left; /* Centraliza o texto dentro dos filhos */
+  margin-top: 0;
+}
